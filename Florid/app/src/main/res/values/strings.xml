@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">花语</string>
+    <string name="state">连接状态：</string>
+    <string name="connect">打开/搜索</string>
+    <string name="disconnect">关闭蓝牙</string>
+    <string name="query">查看盆栽情况</string>
+    <string name="remote_control">获取设置花盆其他信息</string>
+    <string name="advice">远程控制</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+    <string name="version">V1.0</string>
+    <string name="copy_right">Copyright © 2017 Florid Team.All Right Reserved. </string>
+    <string name="learned">确定</string>
+    <string name="please">欢迎使用花语</string>
+    <string name="open_lcd">打开LCD显示屏</string>
+    <string name="close_lcd">关闭LCD显示屏</string>
+
+    <string name="settime">请输入要设置时间：</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="min">分</string>
+    <string name="second">秒</string>
+    <string name="week">星期</string>
+    <string name="hint_year">1900～2100</string>
+    <string name="hint_month">1～12</string>
+    <string name="hint_day">1～31</string>
+    <string name="hint_hour">0～23</string>
+    <string name="hint_min">0～60</string>
+    <string name="hint_second">0～60</string>
+    <string name="hint_week">1～7</string>
+    <string name="stime">设置时间</string>
+
+
+    <string name="env_temp">环境温度：</string>
+    <string name="soil_temp">土壤温度：</string>
+    <string name="env_humi">环境湿度：</string>
+    <string name="soil_humi">土壤湿度：</string>
+    <string name="light">光照强度：</string>
+    <string name="get_data">获取</string>
+    <string name="goback">返回</string>
+    <string name="default_zero">0</string>
+
+    <string name="Celsius">℃</string>
+    <string name="to">～</string>
+    <string name="percent">%</string>
+
+    <string name="reslut">结果:</string>
+    <string name="close_or_open_lcd">关闭/打开LCD</string>
+    <string name="get_time">获取时间</string>
+    <string name="command_line">命令行控制</string>
+    <string name="input_commang">指令：</string>
+    <string name="input_hint">请输入指令</string>
+    <string name="blueteeth_name">蓝牙名称：</string>
+    <string name="title_activity_main7">Main7Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="my_plant">我的花盆</string>
+    <string name="mode">控制模式：</string>
+    <string name="h_mode">手动控制</string>
+    <string name="a_mode">自动控制</string>
+
+    <string name="get_flower_name">请选择花卉种类：</string>
+    <string name="get_advice">常见花卉的建议数值为：</string>
+    <string name="set_number">设置当前花卉阈值：</string>
+    <string name="open_water">打开浇水开关</string>
+    <string name="close_water">关闭浇水开关</string>
+    <string name="open_led">打开Led灯</string>
+    <string name="close_led">关闭Led灯</string>
+    <string name="set_number1">设置数值</string>
+
+
+
+    <string name="get_env_temp">获取环境温度阈值</string>
+    <string name="get_env_humi">获取环境湿度阈值</string>
+    <string name="get_soil_humi">获取土壤湿度阈值</string>
+    <string name="get_light">获取光照强度阈值</string>
+</resources>

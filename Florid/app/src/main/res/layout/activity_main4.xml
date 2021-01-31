@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@android:style/Widget.Material.ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="horizontal|vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linear41"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_background"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_size2"
+        tools:context="com.alexios.florid.Main4Activity">
+
+        <LinearLayout
+            android:id="@+id/linear46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <TextView
+                android:id="@+id/text41"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/reslut"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text42"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <Button
+                android:id="@+id/button421"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:backgroundTint="@color/colorRed"
+                android:onClick="getenvtemp"
+                android:text="@string/get_env_temp"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/button422"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:backgroundTint="@color/colorYellow"
+                android:onClick="getenvhumi"
+                android:text="@string/get_env_humi"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/button423"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:backgroundTint="@color/colorGreen"
+                android:onClick="getsoilhumi"
+                android:text="@string/get_soil_humi"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/button424"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:backgroundTint="@color/colorAccent"
+                android:onClick="getlight"
+                android:text="@string/get_light"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <Button
+                android:id="@+id/button441"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:onClick="openLCD"
+                android:text="@string/open_lcd"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/button442"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_dark"
+                android:onClick="closeLCD"
+                android:text="@string/close_lcd"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:onClick="getTime"
+                android:text="@string/get_time"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_size">
+            <LinearLayout
+                android:id="@+id/linear471"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/settime"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear472"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/year"/>
+                <EditText
+                    android:id="@+id/text4721"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_year"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/month"/>
+                <EditText
+                    android:id="@+id/text4722"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_month"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day"/>
+                <EditText
+                    android:id="@+id/text4723"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_day" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear473"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hour" />
+                <EditText
+                    android:id="@+id/text4724"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_hour"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/min"/>
+                <EditText
+                    android:id="@+id/text4725"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_min"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/second"/>
+                <EditText
+                    android:id="@+id/text4726"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_second"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/linear474"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/week"/>
+                <EditText
+                    android:id="@+id/text4727"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_week"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:id="@+id/linear48"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size"
+                >
+            <Button
+                android:id="@+id/button481"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_dark"
+                android:onClick="setTime"
+                android:text="@string/stime"
+                android:textColor="@android:color/white" />
+            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                android:onClick="goBack"
+                android:text="@string/goback"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

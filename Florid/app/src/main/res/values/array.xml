@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="flowername">
+        <item>吊兰</item>
+        <item>君子兰</item>
+        <item>滴水观音</item>
+        <item>文竹</item>
+        <item>芦荟</item>
+        <item>其它</item>
+    </string-array>
+</resources>
+
+
+

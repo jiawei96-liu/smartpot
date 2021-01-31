@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@android:style/Widget.Material.ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="horizontal|vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/linear61"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:background="@drawable/app_background"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_size2"
+        tools:context="com.alexios.florid.Main6Activity">
+
+
+
+        <LinearLayout
+            android:id="@+id/linear62"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <TextView
+                android:id="@+id/text621"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/get_flower_name"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner622"
+                android:entries="@array/flowername"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+            <TextView
+                android:id="@+id/text631"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/get_advice" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <TextView
+                android:id="@+id/text641"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/env_temp" />
+            <TextView
+                android:id="@+id/text642"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+            <TextView
+                android:id="@+id/text643"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/Celsius" />
+            <TextView
+                android:id="@+id/text644"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/env_humi" />
+            <TextView
+                android:id="@+id/text645"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+            <TextView
+                android:id="@+id/text646"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/percent" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear65"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <TextView
+                android:id="@+id/text651"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soil_humi" />
+            <TextView
+                android:id="@+id/text652"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+               />
+            <TextView
+                android:id="@+id/text653"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/percent" />
+            <TextView
+                android:id="@+id/text654"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/light" />
+
+            <TextView
+                android:id="@+id/text655"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:id="@+id/text656"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/percent" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/linear66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+            <TextView
+                android:id="@+id/text661"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/set_number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/linears67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_size">
+            <TextView
+                android:id="@+id/text671"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/env_temp" />
+            <EditText
+                android:id="@+id/text672"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+
+                />
+
+
+            <TextView
+                android:id="@+id/text673"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/to" />
+
+            <EditText
+                android:id="@+id/text674"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+            <TextView
+                android:id="@+id/text675"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/Celsius" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linears68"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+            <TextView
+                android:id="@+id/text676"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/env_humi" />
+            <EditText
+                android:id="@+id/text677"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+
+
+            <TextView
+                android:id="@+id/text678"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/to" />
+
+            <EditText
+                android:id="@+id/text679"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+            <TextView
+                android:id="@+id/text6710"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/percent" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linears69"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+            <TextView
+                android:id="@+id/text681"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soil_humi" />
+            <EditText
+                android:id="@+id/text682"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+
+
+            <TextView
+                android:id="@+id/text683"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/to" />
+
+            <EditText
+                android:id="@+id/text684"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+            <TextView
+                android:id="@+id/text685"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/percent" />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linears610"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+            <TextView
+                android:id="@+id/text686"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/light" />
+
+            <EditText
+                android:id="@+id/text687"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+
+
+            <TextView
+                android:id="@+id/text688"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/to" />
+
+            <EditText
+                android:id="@+id/text689"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:id="@+id/text6810"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/percent" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear612"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <Button
+                android:id="@+id/button6121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"
+                android:onClick="setNumber"
+                android:text="@string/set_number1"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear69"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <Button
+                android:id="@+id/button691"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:onClick="openWater"
+                android:text="@string/open_water"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/button692"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:onClick="closeWater"
+                android:text="@string/close_water"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.11" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear610"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <Button
+                android:id="@+id/button6101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:onClick="openLed"
+                android:text="@string/open_led"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/button6102"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:onClick="closeLed"
+                android:text="@string/close_led"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.11" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear611"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_size">
+
+            <Button
+                android:id="@+id/button6111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:onClick="goBack"
+                android:text="@string/goback"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
